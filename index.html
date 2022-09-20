@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+</head>
+<style>
+    body{
+        background:rgb(13, 64, 73)
+    }
+   #main-heading{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+   .container{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+   }
+   .boxes{
+    border: 3px solid white;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    
+   }
+#heading{
+    color: white;
+}
+   button{
+    border: none;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+   }
+
+   .btn{
+        margin-top: 50px;
+   }
+
+</style>
+<body>
+        <h1 id="main-heading">Event Listeners Project 1</h1>
+
+    
+       <div class="container">
+        <div class="boxes box-1">
+            <h1 id="heading">Example 1</h1>
+            <button class="btn" onclick="alert('i love javascript')"">Enter</button>
+        </div>
+
+        <div class="boxes box-2">
+            <h1 id="heading">Example 2</h1>
+            <button class="btn-2 btn">Enter</button>
+        </div>
+
+        <div class="boxes box-3">
+            <h1 id="heading">Example 3</h1>
+            <button class="btn-3 btn">Enter</button>
+        </div>
+       </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
